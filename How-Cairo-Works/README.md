@@ -1,0 +1,74 @@
+#  How Cairo Works
+“How Cairo Works” 从 **Cairo** 的低级类汇编版本开始，解释了 **Cairo** 编译器的语法糖机制，它将 **Cairo** 变成了一种类似高级的语言。如果你打算立即上手写代码，可以先参考 “Hello, Cairo” 教程。
+
+- **Cairo** 介绍
+  - 字段
+  - Nondeterministic computation
+  - 内存模型
+  - 寄存器
+  - 基本指令
+  - Continuous memory
+- Debug 用到的一些flags
+  - --print_info
+  - --print_memory
+  - --steps
+  - --no_end
+  - --debug_error
+  - --profile_output profile.pb.gz
+- 程序计数器 (pc)
+  - 程序计数器和跳转
+  - 条件跳转
+- 常量和引用
+  - 常量
+  - Short string literals
+  - 引用
+  - 断言和复合表达式
+  - Revoked references
+  - 类型引用
+  - 类型转换
+  - 临时变量
+  - 本地变量
+  - 本地类型变量
+  - 引用重绑定
+  - 元组
+  - 数组
+- 方法
+  - 介绍
+  - fp寄存器
+  - Under the hood
+  - 访问寄存器的值
+  - 方法参数和返回值
+  - 命名参数
+  - 尾递归
+  - 返回元组
+- 类型
+  - 元祖
+  - 用户定义的类型别名
+- 对象创建
+  - alloc()
+  - new 操作符
+- 作用域参数
+- 导入包
+  - 导入搜索路径
+- 提示
+  - 介绍
+- 程序输入和输出
+ - 程序输入
+ - 程序输出
+- 段
+  - 基本原理
+  - Relocatable values
+  - 用例
+  - 例子
+  - 练习
+- 非确定性跳转
+  - 练习
+- 内置函数和隐式参数
+  - 介绍
+  - 隐式参数
+  - 调用带隐式参数的参数
+  - Revoked implicit arguments
+  - 布局
+  - %builtins 指令
+  - 范围检查
+- 字面值
