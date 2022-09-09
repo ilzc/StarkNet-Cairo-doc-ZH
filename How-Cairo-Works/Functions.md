@@ -258,7 +258,7 @@ return inner_func(x=4, y=5);
 
 ```
 func main() {
-    // 嗲用 fib(1, 1, 10).
+    // 调用 fib(1, 1, 10).
     [ap] = 1, ap++;
     [ap] = 1, ap++;
     [ap] = 10, ap++;
@@ -286,7 +286,7 @@ func fib(first_element, second_element, n) -> (res: felt) {
 确保您了解内存布局、ap 和 fp 寄存器的使用以及尾递归返回值的概念。
 
 ### 练习
-1.实现函数 $ f(x,n) = x^n $ 使用递归规则 $ f(x,n+1) = f(x,n)*x $
+1.实现函数 $f(x,n) = x^n$ 使用递归规则 $f(x,n+1) = f(x,n)*x$
 
 2.添加调用 x=2, n=7 的函数的代码，运行它（如果你得到 End of program was not reached 错误，增加步骤数）并验证结果（例如，通过使用 `--print_memory` 或通过 添加一个假断言指令 `[ap - 1] = 1111` 并确保错误显示类似于 ASSERT_EQ 指令失败：128 ！= 1111）。
 
