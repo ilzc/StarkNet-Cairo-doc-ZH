@@ -3,11 +3,11 @@
 
 - **Cairo** 介绍
   - 字段
-  - Nondeterministic computation
+  - 非确定性计算
   - 内存模型
   - 寄存器
   - 基本指令
-  - Continuous memory
+  - 连续内存
 - Debug 用到的一些flags
   - --print_info
   - --print_memory
