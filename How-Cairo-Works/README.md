@@ -1,7 +1,7 @@
 #  How Cairo Works
 “How Cairo Works” 从 **Cairo** 的低级类汇编版本开始，解释了 **Cairo** 编译器的语法糖机制，它将 **Cairo** 变成了一种类似高级的语言。如果你打算立即上手写代码，可以先参考 “Hello, Cairo” 教程。
 
-- [**Cairo** 介绍](Introduction-To-Cairo.md)
+- [**Cairo** 介绍](../Introduction-To-Cairo.md)
   - [字段](Introduction-To-Cairo.md#field)
   - [非确定性计算](Introduction-To-Cairo.md#compute)
   - [内存模型](Introduction-To-Cairo.md#memory-model)
