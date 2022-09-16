@@ -1,7 +1,7 @@
 #  How Cairo Works
 “How Cairo Works” 从 **Cairo** 的低级类汇编版本开始，解释了 **Cairo** 编译器的语法糖机制，它将 **Cairo** 变成了一种类似高级的语言。如果你打算立即上手写代码，可以先参考 “Hello, Cairo” 教程。
 
-- [**Cairo** 介绍](../Introduction-to-Cairo.md)
+- [**Cairo** 介绍](Introduction-to-Cairo.md)
   - [字段](Introduction-to-Cairo.md#field)
   - [非确定性计算](Introduction-to-Cairo.md#compute)
   - [内存模型](Introduction-to-Cairo.md#memory-model)
@@ -18,20 +18,20 @@
 - [程序计数器 (pc)](The-Program-Counter.md)
   - [程序计数器和跳转](The-Program-Counter.md#counter-and-jump)
   - [条件跳转](The-Program-Counter.md#condition-jump)
-- 常量和引用
-  - 常量
-  - Short string literals
-  - 引用
-  - 断言和复合表达式
-  - Revoked references
-  - 类型引用
-  - 类型转换
-  - 临时变量
-  - 本地变量
-  - 本地类型变量
-  - 引用重绑定
-  - 元组
-  - 数组
+- [常量和引用](Consts.md)
+  - [常量](Consts.md#const)
+  - [短字符串文字](Consts.md#Short-string-literals)
+  - [引用](Consts.md#references)
+  - [断言和复合表达式](Consts.md#assert)
+  - [撤销引用](Consts.md#revoked-references)
+  - [类型引用](Consts.md#type-reference)
+  - [类型转换](Consts.md#cast)
+  - [临时变量](Consts.md#tempvar)
+  - [局部变量](Consts.md#local-variables)
+  - [类型化的局部变量](Consts.md#typed-local-vars)
+  - [引用重绑定](Consts.md#Reference-rebinding)
+  - [元组](Consts.md#tuples)
+  - [数组](Consts.md#array)
 - [函数](Functions.md)
   - [介绍](Functions.md#introduction)
   - [fp寄存器](Functions.md#fp)
