@@ -11,7 +11,7 @@ from a.b import c as d
 from a.b import c as d, e, f
 ```
 
-## 导入搜索路径
+## [导入搜索路径](#search-path)
 
 当 Cairo 在上面的示例中查找模块 `a.b` 时，它将在已配置搜索的路径中搜索文件 `a/b.cairo`。搜索的路径取自一个以冒号分隔的列表，可以通过两种方式设置：
 
